@@ -100,11 +100,11 @@ end
 
 # ----
 
-data = File.read(“text.txt”)
+data = File.read("text.txt")
 
 # ----
 
-array_of_lines = File.readlines(“text.txt”)
+array_of_lines = File.readlines("text.txt")
 
 # ----
 
@@ -341,7 +341,7 @@ puts people[2][0]
 
 # ----
 
-require ‘csv’
+require 'csv'
 p CSV.read('text.txt')
 
 # ----
@@ -662,7 +662,7 @@ end
 
 # ----
 
-person = Person.where(name: “Chris”).first
+person = Person.where(name: "Chris").first
 person.age = 50
 person.save
 

@@ -139,7 +139,7 @@ Kernel.puts "Hello, world!"
 
 class Dog
   def bark
-    puts “Woof!”
+    puts "Woof!"
   end
 end
 
@@ -153,7 +153,7 @@ my_dog.bark
 class Dog
   def bark(i)
     i.times do
-      puts “Woof!”
+      puts "Woof!"
     end
   end
 end
@@ -176,15 +176,15 @@ end
 # ----
 
 my_dog = Dog.new
-my_dog.say(“Dogs”, “can’t”, “talk!”)
+my_dog.say("Dogs", "can't", "talk!")
 
 # ----
 
-puts “Hello”
+puts "Hello"
 
 # ----
 
-puts(“Hello”)
+puts("Hello")
 
 # ----
 
