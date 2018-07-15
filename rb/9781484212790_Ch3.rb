@@ -52,7 +52,7 @@ puts "You're either very young or very old" if age > 80 || age < 10
 
 # ----
 
-gender = “male”
+gender = "male"
 age = 6
 puts "A very young or old man" if gender == "male" && (age < 18 || age > 85)
 
@@ -180,11 +180,11 @@ puts "y" > "x"
 
 # ----
 
-puts “x”.ord
+puts "x".ord
 
 # ----
 
-puts “A”.ord
+puts "A".ord
 
 # ----
 
